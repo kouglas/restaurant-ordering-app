@@ -1,2 +1,2 @@
 # restaurant-ordering-app
- an app where you can order foood
+ an app where you can order food

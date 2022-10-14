@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Restaurant Ordering App</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-text">
+        <h1>Jimmy's Diner</h1>
+        <h4>The best burgers and pizza in town</h4>
+        </div>
+    </header>
+    <div class="hidden" id="form-popup">
+        <h3 class="card-details">Enter card details</h3>
+        <form id="pay-form">
+            <input 
+                placeholder="Enter your name"
+                name="cardName"
+                id="cardName"
+                required
+                />
+
+            <input 
+                placeholder="Enter card number"
+                name="cardNumber"
+                id="cardNumber"
+                required
+                />
+
+            <input 
+                placeholder="Enter CVV"
+                name="cardCVV"
+                id="cardCVV"
+                required
+                />
+            <button class="pay-btn green-btn">Pay</button>
+        </form>
+    </div>
+    <main id="main-section">
+        <section class="menu">
+            <div id="menu-items"></div>
+            <div id="show-order-total"></div>
+            <!-- <div class="menu-item"
+                 id="menu-items">  -->
+                 <!--put menu items here--> 
+            
+        </section>
+    </main>
+
+
+
+
+    <script src="script.js" type="module"></script>
+    
+</body>
+</html>
